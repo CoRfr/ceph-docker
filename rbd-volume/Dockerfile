@@ -9,7 +9,7 @@
 #
 # VERSION 0.0.2
 
-FROM ceph/base
+FROM corfr/ceph-base
 MAINTAINER Seán C McCord "ulexus@gmail.com"
 
 # Make /mnt/rbd a volume

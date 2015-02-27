@@ -4,7 +4,7 @@
 #
 # VERSION 0.0.1
 
-FROM ceph/base
+FROM corfr/ceph-base
 MAINTAINER Sébastien Han "seb@redhat.com"
 
 # Apache prerequisite

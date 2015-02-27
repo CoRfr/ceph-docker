@@ -19,11 +19,11 @@
 #      certain you import the following files _before_ executing this container:
 #        - /etc/ceph/ceph.conf (the main ceph.conf)
 #        - /etc/ceph/ceph.client.admin.keyring (the admin client keyring)
-#        - /etc/ceph/monmap (the current monitor map)
+#        - /etc/corfr/ceph-monmap (the current monitor map)
 #
 # VERSION 0.0.2
 
-FROM ceph/base
+FROM corfr/ceph-base
 MAINTAINER Seán C McCord "ulexus@gmail.com"
 
 # Add bootstrap script

@@ -4,7 +4,7 @@
 # rbd
 #
 
-FROM ceph/base
+FROM corfr/ceph-base
 MAINTAINER Seán C McCord "ulexus@gmail.com"
 
 # Execute monitor as the entrypoint
