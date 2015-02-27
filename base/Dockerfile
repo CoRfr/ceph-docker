@@ -5,7 +5,7 @@
 FROM ubuntu:14.04
 MAINTAINER Sébastien Han "seb@redhat.com"
 
-ENV CEPH_VERSION firefly
+ENV CEPH_VERSION giant
 
 # Install prerequisites
 RUN apt-get update
